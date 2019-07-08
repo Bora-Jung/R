@@ -9,6 +9,7 @@ for(i in 1:(len/n)){
   name = paste0("df", i)
   assign(name, ICT_data01[(1+(i-1)*n):(i*n),])
   
-} 
+} `
 
-행이 너무 길어서, 특정 기준에 따라 나눠보기
+행이 많아서, N개씩 자름
+(그래프 그리기에 편하게 하려고)
