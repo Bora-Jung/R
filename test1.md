@@ -33,3 +33,8 @@ Syntax: [링크연결](www.google.com)
 
 ***강조***
 
+
+
+<H1> 코드 넣기 </H1>
+
+<pre><code>testing</code></pre>
