@@ -1,4 +1,5 @@
-행을 n개씩 나누기
+#행을 n개씩 나누기
+#test 
 
 n <- 1000000
 len <- nrow(ICT_data01)
