@@ -1,0 +1,12 @@
+### R update
+
+
+### in R console
+install.packages("installr")
+library(installr)
+updateR()
+
+
+### package update
+packs = as.data.frame(installed.packages(.libPaths()[1]), stringAsFactors = F)
+install.packages(packs$Package)
