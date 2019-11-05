@@ -1,12 +1,12 @@
-<H2> R update </H2>
+<H1>R update</H1>
 
 
-``` in R console
+```in R console
 install.packages("installr")
 library(installr)
 updateR()
 
 
-``` package update
+```package update
 packs = as.data.frame(installed.packages(.libPaths()[1]), stringAsFactors = F)
 install.packages(packs$Package)
